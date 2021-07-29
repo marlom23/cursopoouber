@@ -7,6 +7,12 @@ class Account
     public $document;
     public $email;
     public $password;
-    
+
+
+    public function __constructor($name, $document)
+    {
+        $this->name = $name;
+        $this->document = $document;
+    }
 }
 ?>
