@@ -10,10 +10,10 @@ class Car
 
     printDataCar ()
     {
+        console.log(this.license)
+        console.log(this.driver.name)
+        console.log(this. driver.comument)
 
-         console.log(this.driver)
-         console.log(this.driver.name)
-         console.log(this.driver.document)
          
     }
 }
